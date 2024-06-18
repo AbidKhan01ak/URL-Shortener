@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  position: absolute;
+  top: 0;
+}
+
+h1 span {
+  font-weight: 800;
+  color: #ff6347;
+}
+
+form {
+  width: 100%;
+}
+form#shortener-form {
+  display: flex;
+  align-items: stretch;
+}
+input[type="url"] {
+  width: 450px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button.btn {
+  background-color: #ff6347;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+button.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+button.btn:hover {
+  background-color: #ff4500;
+}
+
+#shortened-url-container {
+  margin-top: 20px;
+  display: none;
+}
+
+#shortened-url-container p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#shortened-url {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#shortened-url:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

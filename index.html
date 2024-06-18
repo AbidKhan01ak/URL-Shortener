@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shorten your links here</title>
+    <link rel="icon" href="assets/link.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Your own&nbsp;<span> URL </span>&nbsp;Shortener</h1>
+    <div class="main">
+      <form id="shortener-form">
+        <input
+          type="url"
+          placeholder="Enter the URL here"
+          id="urlInput"
+          required
+        />
+        <button type="submit" class="btn">
+          <img src="assets/rarrow.svg" alt="Short URL" />
+        </button>
+      </form>
+    </div>
+    <div id="shortened-url-container">
+      <p>Shortened URL:</p>
+      <a id="shortened-url" href="#" target="_blank"></a>
+    </div>
+    <footer>
+      <p class="copyright">
+        &copy; Made by
+        <a href="https://github.com/AbidKhan01ak">
+          Abid Khan <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </p>
+    </footer>
+    <script
+      defer
+      src="https://kit.fontawesome.com/94c50c5d97.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
